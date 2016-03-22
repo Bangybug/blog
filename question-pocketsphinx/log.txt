@@ -1,25 +1,30 @@
-INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from ../../.
-./../pocketsphinx/model/en-us/en-us/feat.params
+C:\workspaces\sphinx\pocketsphinx\bin\Debug\Win32>pocketsphinx_continuous.exe -i
+nfile goforward.raw -hmm c:\workspaces\sphinx\pocketsphinx\model\en-us\en-us 
+-lm c:\workspaces\sphinx\pocketsphinx\model\en-us\en-us.lm.bin 
+-dict c:\workspaces\sphinx\pocketsphinx\model\en-us\cmudict-en-us.dict
+
+INFO: pocketsphinx.c(152): Parsed model-specific feature parameters from c:\work
+spaces\sphinx\pocketsphinx\model\en-us\en-us/feat.params
 Current configuration:
 [NAME]                  [DEFLT]         [VALUE]
 -agc                    none            none
--agcthresh              2.0             2.000000e+00
+-agcthresh              2.0             2.000000e+000
 -allphone
 -allphone_ci            no              no
--alpha                  0.97            9.700000e-01
--ascale                 20.0            2.000000e+01
+-alpha                  0.97            9.700000e-001
+-ascale                 20.0            2.000000e+001
 -aw                     1               1
 -backtrace              no              no
--beam                   1e-48           1.000000e-48
+-beam                   1e-48           1.000000e-048
 -bestpath               yes             yes
--bestpathlw             9.5             9.500000e+00
+-bestpathlw             9.5             9.500000e+000
 -ceplen                 13              13
 -cmn                    current         current
 -cmninit                8.0             40,3,-1
 -compallsen             no              no
 -debug                                  0
--dict                                   ../../../../pocketsphinx/model/en-us/cmu
-dict-en-us.dict
+-dict                                   c:\workspaces\sphinx\pocketsphinx\model\
+en-us\cmudict-en-us.dict
 -dictcase               no              no
 -dither                 no              no
 -doublebw               no              no
@@ -27,42 +32,42 @@ dict-en-us.dict
 -fdict
 -feat                   1s_c_d_dd       1s_c_d_dd
 -featparams
--fillprob               1e-8            1.000000e-08
+-fillprob               1e-8            1.000000e-008
 -frate                  100             100
 -fsg
 -fsgusealtpron          yes             yes
 -fsgusefiller           yes             yes
 -fwdflat                yes             yes
--fwdflatbeam            1e-64           1.000000e-64
+-fwdflatbeam            1e-64           1.000000e-064
 -fwdflatefwid           4               4
--fwdflatlw              8.5             8.500000e+00
+-fwdflatlw              8.5             8.500000e+000
 -fwdflatsfwin           25              25
--fwdflatwbeam           7e-29           7.000000e-29
+-fwdflatwbeam           7e-29           7.000000e-029
 -fwdtree                yes             yes
--hmm                                    ../../../../pocketsphinx/model/en-us/en-
-us
+-hmm                                    c:\workspaces\sphinx\pocketsphinx\model\
+en-us\en-us
 -input_endian           little          little
 -jsgf
 -keyphrase
 -kws
 -kws_delay              10              10
--kws_plp                1e-1            1.000000e-01
--kws_threshold          1               1.000000e+00
+-kws_plp                1e-1            1.000000e-001
+-kws_threshold          1               1.000000e+000
 -latsize                5000            5000
 -lda
 -ldadim                 0               0
 -lifter                 0               22
--lm                                     ../../../../pocketsphinx/model/en-us/en-
-us.lm.bin
+-lm                                     c:\workspaces\sphinx\pocketsphinx\model\
+en-us\en-us.lm.bin
 -lmctl
 -lmname
--logbase                1.0001          1.000100e+00
+-logbase                1.0001          1.000100e+000
 -logfn
 -logspec                no              no
--lowerf                 133.33334       1.300000e+02
--lpbeam                 1e-40           1.000000e-40
--lponlybeam             7e-29           7.000000e-29
--lw                     6.5             6.500000e+00
+-lowerf                 133.33334       1.300000e+002
+-lpbeam                 1e-40           1.000000e-040
+-lponlybeam             7e-29           7.000000e-029
+-lw                     6.5             6.500000e+000
 -maxhmmpf               30000           30000
 -maxwpf                 -1              -1
 -mdef
@@ -70,86 +75,86 @@ us.lm.bin
 -mfclogdir
 -min_endfr              0               0
 -mixw
--mixwfloor              0.0000001       1.000000e-07
+-mixwfloor              0.0000001       1.000000e-007
 -mllr
 -mmap                   yes             yes
 -ncep                   13              13
 -nfft                   512             512
 -nfilt                  40              25
--nwpen                  1.0             1.000000e+00
--pbeam                  1e-48           1.000000e-48
--pip                    1.0             1.000000e+00
--pl_beam                1e-10           1.000000e-10
--pl_pbeam               1e-10           1.000000e-10
--pl_pip                 1.0             1.000000e+00
--pl_weight              3.0             3.000000e+00
+-nwpen                  1.0             1.000000e+000
+-pbeam                  1e-48           1.000000e-048
+-pip                    1.0             1.000000e+000
+-pl_beam                1e-10           1.000000e-010
+-pl_pbeam               1e-10           1.000000e-010
+-pl_pip                 1.0             1.000000e+000
+-pl_weight              3.0             3.000000e+000
 -pl_window              5               5
 -rawlogdir
 -remove_dc              no              no
 -remove_noise           yes             yes
 -remove_silence         yes             yes
 -round_filters          yes             yes
--samprate               16000           1.600000e+04
+-samprate               16000           1.600000e+004
 -seed                   -1              -1
 -sendump
 -senlogdir
 -senmgau
--silprob                0.005           5.000000e-03
+-silprob                0.005           5.000000e-003
 -smoothspec             no              no
 -svspec                                 0-12/13-25/26-38
 -tmat
--tmatfloor              0.0001          1.000000e-04
+-tmatfloor              0.0001          1.000000e-004
 -topn                   4               4
 -topn_beam              0               0
 -toprule
 -transform              legacy          dct
 -unit_area              yes             yes
--upperf                 6855.4976       6.800000e+03
--uw                     1.0             1.000000e+00
+-upperf                 6855.4976       6.800000e+003
+-uw                     1.0             1.000000e+000
 -vad_postspeech         50              50
 -vad_prespeech          20              20
 -vad_startspeech        10              10
--vad_threshold          2.0             2.000000e+00
+-vad_threshold          2.0             2.000000e+000
 -var
--varfloor               0.0001          1.000000e-04
+-varfloor               0.0001          1.000000e-004
 -varnorm                no              no
 -verbose                no              no
 -warp_params
 -warp_type              inverse_linear  inverse_linear
--wbeam                  7e-29           7.000000e-29
--wip                    0.65            6.500000e-01
--wlen                   0.025625        2.562500e-02
+-wbeam                  7e-29           7.000000e-029
+-wip                    0.65            6.500000e-001
+-wlen                   0.025625        2.562500e-002
 
 INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13,
 CMN='current', VARNORM='no', AGC='none'
 INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
 INFO: acmod.c(164): Using subvector specification 0-12/13-25/26-38
-INFO: mdef.c(518): Reading model definition: ../../../../pocketsphinx/model/en-u
-s/en-us/mdef
+INFO: mdef.c(518): Reading model definition: c:\workspaces\sphinx\pocketsphinx\m
+odel\en-us\en-us/mdef
 INFO: mdef.c(531): Found byte-order mark BMDF, assuming this is a binary mdef fi
 le
-INFO: bin_mdef.c(336): Reading binary model definition: ../../../../pocketsphinx
-/model/en-us/en-us/mdef
+INFO: bin_mdef.c(336): Reading binary model definition: c:\workspaces\sphinx\poc
+ketsphinx\model\en-us\en-us/mdef
 INFO: bin_mdef.c(516): 42 CI-phone, 137053 CD-phone, 3 emitstate/phone, 126 CI-s
 en, 5126 Sen, 29324 Sen-Seq
-INFO: tmat.c(206): Reading HMM transition probability matrices: ../../../../pock
-etsphinx/model/en-us/en-us/transition_matrices
+INFO: tmat.c(206): Reading HMM transition probability matrices: c:\workspaces\sp
+hinx\pocketsphinx\model\en-us\en-us/transition_matrices
 INFO: acmod.c(117): Attempting to use PTM computation module
-INFO: ms_gauden.c(198): Reading mixture gaussian parameter: ../../../../pocketsp
-hinx/model/en-us/en-us/means
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: c:\workspaces\sphinx
+\pocketsphinx\model\en-us\en-us/means
 INFO: ms_gauden.c(292): 42 codebook, 3 feature, size:
 INFO: ms_gauden.c(294):  128x13
 INFO: ms_gauden.c(294):  128x13
 INFO: ms_gauden.c(294):  128x13
-INFO: ms_gauden.c(198): Reading mixture gaussian parameter: ../../../../pocketsp
-hinx/model/en-us/en-us/variances
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: c:\workspaces\sphinx
+\pocketsphinx\model\en-us\en-us/variances
 INFO: ms_gauden.c(292): 42 codebook, 3 feature, size:
 INFO: ms_gauden.c(294):  128x13
 INFO: ms_gauden.c(294):  128x13
 INFO: ms_gauden.c(294):  128x13
 INFO: ms_gauden.c(354): 222 variance values floored
-INFO: ptm_mgau.c(476): Loading senones from dump file ../../../../pocketsphinx/m
-odel/en-us/en-us/sendump
+INFO: ptm_mgau.c(476): Loading senones from dump file c:\workspaces\sphinx\pocke
+tsphinx\model\en-us\en-us/sendump
 INFO: ptm_mgau.c(500): BEGIN FILE FORMAT DESCRIPTION
 INFO: ptm_mgau.c(563): Rows: 128, Columns: 5126
 INFO: ptm_mgau.c(595): Using memory-mapped I/O for senones
@@ -157,12 +162,12 @@ INFO: ptm_mgau.c(835): Maximum top-N: 4
 INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion p
 enalty 0
 INFO: dict.c(320): Allocating 138623 * 20 bytes (2707 KiB) for word entries
-INFO: dict.c(333): Reading main dictionary: ../../../../pocketsphinx/model/en-us
-/cmudict-en-us.dict
+INFO: dict.c(333): Reading main dictionary: c:\workspaces\sphinx\pocketsphinx\mo
+del\en-us\cmudict-en-us.dict
 INFO: dict.c(213): Allocated 1014 KiB for strings, 1677 KiB for phones
 INFO: dict.c(336): 134522 words read
-INFO: dict.c(358): Reading filler dictionary: ../../../../pocketsphinx/model/en-
-us/en-us/noisedict
+INFO: dict.c(358): Reading filler dictionary: c:\workspaces\sphinx\pocketsphinx\
+model\en-us\en-us/noisedict
 INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
 INFO: dict.c(361): 5 words read
 INFO: dict2pid.c(396): Building PID tables for dictionary
@@ -182,51 +187,46 @@ INFO: ngram_search_fwdtree.c(326): after: max nonroot chan increased to 152144
 INFO: ngram_search_fwdtree.c(339): after: 722 root, 152016 non-root channels, 53
  single-phone words
 INFO: ngram_search_fwdflat.c(157): fwdflat: min_ef_width = 4, max_sf_win = 25
+INFO: continuous.c(307): pocketsphinx_continuous.exe COMPILED ON: Mar 21 2016, A
+T: 09:42:16
+
 INFO: ngram_search.c(467): Resized score stack to 200000 entries
 INFO: ngram_search.c(459): Resized backpointer table to 10000 entries
-INFO: ngram_search.c(467): Resized score stack to 400000 entries
-INFO: ngram_search.c(459): Resized backpointer table to 20000 entries
-INFO: ngram_search_fwdtree.c(952): cand_sf[] increased to 64 entries
-INFO: ngram_search.c(467): Resized score stack to 800000 entries
-INFO: ngram_search.c(459): Resized backpointer table to 40000 entries
 INFO: cmn_prior.c(131): cmn_prior_update: from < 40.00  3.00 -1.00  0.00  0.00
 0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
-INFO: cmn_prior.c(149): cmn_prior_update: to   < 53.07 10.23 -26.47 18.19 -20.21
-  1.07 -12.33 -1.46 -6.94 -2.79 -2.37 -3.84 -0.21 >
-INFO: ngram_search_fwdtree.c(1553):    22656 words recognized (43/fr)
-INFO: ngram_search_fwdtree.c(1555):  1811600 senones evaluated (3399/fr)
-INFO: ngram_search_fwdtree.c(1559):  9993218 channels searched (18749/fr), 30889
-3 1st, 760279 last
-INFO: ngram_search_fwdtree.c(1562):    40115 words for which last channels evalu
-ated (75/fr)
-INFO: ngram_search_fwdtree.c(1564):   696946 candidate words for entering last p
-hone (1307/fr)
-INFO: ngram_search_fwdtree.c(1567): fwdtree 7.52 CPU 1.411 xRT
-INFO: ngram_search_fwdtree.c(1570): fwdtree 7.70 wall 1.445 xRT
-INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 829 words
-INFO: ngram_search_fwdflat.c(948):    14381 words recognized (27/fr)
-INFO: ngram_search_fwdflat.c(950):   721534 senones evaluated (1354/fr)
-INFO: ngram_search_fwdflat.c(952):  1610909 channels searched (3022/fr)
-INFO: ngram_search_fwdflat.c(954):    86201 words searched (161/fr)
-INFO: ngram_search_fwdflat.c(957):    55242 word transitions (103/fr)
-INFO: ngram_search_fwdflat.c(960): fwdflat 1.09 CPU 0.205 xRT
-INFO: ngram_search_fwdflat.c(963): fwdflat 1.08 wall 0.202 xRT
-INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.489
-INFO: ngram_search.c(1279): Eliminated 2 nodes before end node
-INFO: ngram_search.c(1384): Lattice has 1884 nodes, 18299 links
-INFO: ps_lattice.c(1380): Bestpath score: -25507
-INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:489:531) = -1490453
-INFO: ps_lattice.c(1441): Joint P(O,S) = -1690657 P(S|O) = -200204
-INFO: ngram_search.c(875): bestpath 0.19 CPU 0.035 xRT
-INFO: ngram_search.c(878): bestpath 0.17 wall 0.033 xRT
-INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
-INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
-ths ago and pull worked at a research
-INFO: ngram_search_fwdtree.c(432): TOTAL fwdtree 7.52 CPU 1.413 xRT
-INFO: ngram_search_fwdtree.c(435): TOTAL fwdtree 7.70 wall 1.447 xRT
-INFO: ngram_search_fwdflat.c(176): TOTAL fwdflat 1.09 CPU 0.205 xRT
-INFO: ngram_search_fwdflat.c(179): TOTAL fwdflat 1.08 wall 0.203 xRT
-INFO: ngram_search.c(303): TOTAL bestpath 0.19 CPU 0.035 xRT
-INFO: ngram_search.c(306): TOTAL bestpath 0.17 wall 0.033 xRT
-
-C:\workspaces\s2\csharp_test\csharp_test\bin\Release>
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 58.20 13.19 -19.91 23.90 -11.27
+ 10.73 -17.80  1.45 -5.65  0.98 -4.52 -10.16  0.60 >
+INFO: ngram_search_fwdtree.c(1553):     6859 words recognized (28/fr)
+INFO: ngram_search_fwdtree.c(1555):   718204 senones evaluated (2908/fr)
+INFO: ngram_search_fwdtree.c(1559):  2296311 channels searched (9296/fr), 131261
+ 1st, 250503 last
+INFO: ngram_search_fwdtree.c(1562):    12866 words for which last channels evalu
+ated (52/fr)
+INFO: ngram_search_fwdtree.c(1564):   103601 candidate words for entering last p
+hone (419/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 3.68 CPU 1.491 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 3.71 wall 1.504 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 363 words
+INFO: ngram_search_fwdflat.c(948):     4642 words recognized (19/fr)
+INFO: ngram_search_fwdflat.c(950):   298889 senones evaluated (1210/fr)
+INFO: ngram_search_fwdflat.c(952):   543379 channels searched (2199/fr)
+INFO: ngram_search_fwdflat.c(954):    30988 words searched (125/fr)
+INFO: ngram_search_fwdflat.c(957):    20925 word transitions (84/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 1.01 CPU 0.411 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 1.01 wall 0.411 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.239
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 635 nodes, 4593 links
+INFO: ps_lattice.c(1380): Bestpath score: -13925
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:239:245) = -809080
+INFO: ps_lattice.c(1441): Joint P(O,S) = -966177 P(S|O) = -157097
+INFO: ngram_search.c(875): bestpath 0.11 CPU 0.044 xRT
+INFO: ngram_search.c(878): bestpath 0.11 wall 0.046 xRT
+go pull or at any rate and
+INFO: ngram_search_fwdtree.c(432): TOTAL fwdtree 3.68 CPU 1.497 xRT
+INFO: ngram_search_fwdtree.c(435): TOTAL fwdtree 3.71 wall 1.510 xRT
+INFO: ngram_search_fwdflat.c(176): TOTAL fwdflat 1.01 CPU 0.412 xRT
+INFO: ngram_search_fwdflat.c(179): TOTAL fwdflat 1.01 wall 0.413 xRT
+INFO: ngram_search.c(303): TOTAL bestpath 0.11 CPU 0.044 xRT
+INFO: ngram_search.c(306): TOTAL bestpath 0.11 wall 0.046 xRT
+C:\workspaces\sphinx\pocketsphinx\bin\Debug\Win32>
